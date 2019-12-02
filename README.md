@@ -32,25 +32,27 @@ and Chi-Sq test etc. to extract bigram collocations from the corpus.
 
 2. **SVM and NB for Text Classification:** In this section, we will play around with SVM and Naive Bayes for text classification on the corpus of the previous section. It includes the following steps:
 	-   Clean the text
+	
 			● Remove stop words
 			● Remove numbers and other non-letter characters
 			● Stem the words
 	 -   Convert the corpus into a bag-of-words tf-idf weighted vector representation.
 	-   Train **Multinomial NB** and report confusion matrix.
-	-   Train **SVM** and report the confusion matrix. Try different kernels of SVM and provide the impact on accuracy changing the kernel.
+	-   Train **SVM** and report the confusion matrix. Try different kernels of SVM and provide the impact on accuracy on changing the kernels.
 		
 		<p align="center">
 			  <img width="400" height="300" src="https://bit.ly/35Vr9uy" alt="Model  accuracy">
-	  </p>
+	 	 </p>
 
 	-   Perform part-of-speech tagging on each of the sections above and compare the results. The analysis is comprised of the following data: 
+	
 			● Raw
 			● Post cleaning
 			● Post conversion of the corpus into a bag-of-words tf-idf weighted vector representation  
-
+	
 	<p align="center">
 		  <img width="400" height="300" src="https://bit.ly/2L8VNbG" alt="New V/s old accuracies">
-  </p>	
+  	</p>	
 
 ## References:
 
