@@ -5,7 +5,7 @@ Image reference: [1]
 This repository contains objects related to a text classification task. The dataset used in this task is fetched from scikit-learn's twenty newsgroup [2] dataset collection. 
 
 ## Information on Dataset
-![NLP](https://bit.ly/2DBXQAY)
+![wordcloud](https://bit.ly/2DBXQAY)
 
 The 20 newsgroups dataset comprises of around 18000 newsgroup posts on 20 topics split into two subsets: one for training (or development) and the other for testing (or for performance evaluation). For the research in this task, we will only consider news from following 4 topics:
 * alt.atheism
@@ -38,10 +38,19 @@ and Chi-Sq test etc. to extract bigram collocations from the corpus.
 	 -   Convert the corpus into a bag-of-words tf-idf weighted vector representation.
 	-   Train **Multinomial NB** and report confusion matrix.
 	-   Train **SVM** and report the confusion matrix. Try different kernels of SVM and provide the impact on accuracy changing the kernel.
+		
+		<p align="center">
+			  <img width="400" height="300" src="https://bit.ly/35Vr9uy" alt="Model  accuracy">
+	  </p>
+
 	-   Perform part-of-speech tagging on each of the sections above and compare the results. The analysis is comprised of the following data: 
 			● Raw
 			● Post cleaning
 			● Post conversion of the corpus into a bag-of-words tf-idf weighted vector representation  
+
+	<p align="center">
+		  <img width="400" height="300" src="https://bit.ly/2L8VNbG" alt="New V/s old accuracies">
+  </p>	
 
 ## References:
 
